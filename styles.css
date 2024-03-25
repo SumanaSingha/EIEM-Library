@@ -1,0 +1,103 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+header{
+  background-color: #333;
+  color:#fff;
+  padding:20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top:0;
+  z-index:100;
+}
+.logo{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo a{
+  color:#fff;
+  text-decoration: none;
+}
+.search{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav{
+  display: flex;
+  align-items:center;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  margin-left: 25px;
+  list-style: none;
+}
+nav ul li a{
+  color:darkgoldenrod;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+nav ul li a:hover{
+  color:#666;
+}
+.search{
+  position: relative;
+  background-color: #333;
+}
+.search input{
+  padding:10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #444;
+  color:#fff;
+}
+.search button{
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #444;
+  font-weight:bold;
+}
+h2{
+  color: green;
+}
+.section-1{
+  padding: 40px;
+  background-image: url("photo1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height: 2700px;
+  background-size: 100% 100%;
+}
+.Section-1-text{
+  display: block;
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+  color:white;
+}
+h3{
+  font-size: 30px;
+  color: red;
+}
+.section-1 a{
+  font-size: 19px;
+  color: blue;
+}
